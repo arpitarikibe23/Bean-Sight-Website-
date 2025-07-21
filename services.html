@@ -1,0 +1,175 @@
+
+<!-- services.html  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - BIN SIGHT</title>
+    <link rel="stylesheet" href="services.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    #services-text {
+      width: 20%;
+      overflow: hidden;
+      display: inline-block;
+      border-right: 1px solid #000;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: 4px;
+      animation: services-text 2s steps(40, end);
+    }
+    @keyframes services-text {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 20%;
+      }
+    }
+    h3,
+    p {
+      display: inline;
+    }
+    h3 {
+      margin-left: 10px;
+    }
+  </style>
+  <body onload="n3()">
+    <header>
+      <img id="e-waste" src="Images/2.jpg" />
+      <h1>BIN SIGHT</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="nav-class" id="nav1"><a href="index.html">Home</a></li>
+        <li class="nav-class" id="nav2"><a href="about.html">About</a></li>
+        <li class="nav-class" id="nav3">
+          <a href="services.html">Services</a>
+        </li>
+        <li class="nav-class" id="nav4"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="services">
+      <br />
+      <h2 id="services-text">
+        Our
+        <b
+          style="
+            color: #002a54ef;
+            text-shadow: 1px 1px 3px lightblue;
+            text-decoration: underline;
+          "
+          >Services</b
+        >
+      </h2>
+      <br /><br /><br />
+      <div class="service">
+        <img src="Images/smart-waste-management-solution.png" alt="Service 1" />
+        <h3>Dustbin Detection</h3>
+        <br />
+        <p>
+          Our Dustbin Detection Service empowers citizens to actively participate in maintaining cleanliness in their localities. If you spot an overflowing dustbin, simply take a picture and upload it to our  binsight-image-recognition-waste-detection platform. The image will be directly shared with the municipal corporation for prompt action. Together, we can ensure cleaner neighborhoods and a healthier environment for all.
+        </p>
+      </p>
+      <!--<a
+       </a> href="https://huggingface.co/spaces/Krish-Upgrix/binsight-image-recognition-waste-detection"
+        id="btn"
+        >binsight-image-recognition-waste-detection</a>
+      >-->
+      </div>
+      <br />
+      <div class="service">
+        <img src="Images/chatbot-icon-.avif" alt="Service 2" />
+        <h3>Chat With Our Boat</h3>
+        <br />
+        <p>
+          Our intelligent chat assistant is here to answer all your questions related to waste management. Whether it's about proper waste segregation, recycling tips, or updates on local cleanliness initiatives, our bot provides instant, accurate, and helpful responses. It's your go-to guide for creating a cleaner and greener environment!
+        </p>
+       <!--<a
+        href="https://arpita-23-smart-waste-management-system.hf.space"
+        id="btn"
+        >Smart-Waste-Management-System</a
+      >-->
+      </div>
+      <br />
+      <div class="service">
+        <img src="Images/download.jpg" alt="Service 3" />
+        <h3>Get Inspired With Us</h3>
+        <br />
+        <p>
+          Our Get Inspired service encourages individuals and communities to take actionable steps toward a cleaner, greener future. Through engaging content, success stories, and eco-friendly tips, we inspire you to contribute to waste reduction and sustainable living.
+        </p>
+      </div>
+      <br />
+      <div class="service">
+       <!-- <img src="Images/th (7).jpg" alt="Service 4" />
+        <h3>E-Waste Disposal Consultation</h3>
+        <br />
+        <p>
+          We provide expert advice and consultation on the proper disposal of
+          e-waste to ensure compliance with regulations.
+        </p>
+      </div>
+      <br />
+      <div class="service">
+        <img src="Images/education-recycling.jpg" alt="Service 5" />
+        <h3>Educational Programs</h3>
+        <br />
+        <p>
+          We conduct educational programs and workshops to raise awareness about
+          e-waste management and its impact on the environment.
+        </p>
+      </div>
+      <br />
+      <div class="service">
+        <img src="Images/aa-768x512.jpg" alt="Service 6" />
+        <h3>Refurbishment and Resale</h3>
+        <br />
+        <p>
+          We refurbish and resell electronics that are still in working
+          condition, reducing e-waste and promoting reuse.
+        </p>
+      </div>
+      <br />
+    </section>-->
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 BIN SIGHT. All rights reserved.</p>
+        <ul class="social-links">
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
